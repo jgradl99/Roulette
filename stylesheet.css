@@ -1,0 +1,98 @@
+.amount {
+	background-color: lightblue;		/* Hintergrundfarbe hellblau */
+	color: white;						/* Farbe weiß */
+	padding: 15px 32px;					/* Größe der Button */
+	text-align: center;					/* Text zentral */
+	font-size: 16px;					/* Schrifftgröße */
+	cursor: pointer;					/* Cursorart ändert sich beim Mouse hovern */
+	display: inline;					/* In einer Zeile angezeigt */	
+	
+}
+
+.amountButtons {
+	display: flex;						/* Button zentriert anordnen */
+	align-items: center;
+	justify-content: center;
+}
+
+.coinValue {
+	color: yellow;						
+	position: absolute;					/* Position rechts oben am Bildschirm */
+	top: 130px;							/* Abstände */
+	right: 16px;
+}
+
+.bidButtons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}	
+
+.bid {
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline;
+}
+
+.bidBlack {
+	background-color: black;
+}
+
+.bidGreen {
+	background-color: green;
+}
+
+.bidRed {
+	background-color: red;
+}
+
+.number {
+	text-align: center;
+	font-size: 45px;
+	background-color: white;
+	color: violet;
+	display: table;
+	margin: 0px auto 0px auto; 					/* Benötigt, um Hintergrundfarbe nur um den Text zu haben */
+	align-items: center;
+	justify-content: center;
+}
+
+.heading {
+	color: red;
+	font-size: 60px;
+	text-align: center;
+	border: 2px solid red;						/* Box als Umrandung der Überschrift */
+}
+
+.bidAmount {
+	color: lightblue;
+	font-size: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.color {
+	color: lightblue;
+	font-size: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.winAmount {
+	color: lightblue;
+	font-size: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.playButtons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

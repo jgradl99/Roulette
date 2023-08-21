@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Roulette</title>
+		<link rel="stylesheet" href="stylesheet.css">			<!-- Stylesheet laden -->
+	</head>
+<body style="background-color: #292929;">						<!-- graue Hintergrundfarbe -->
+<h1 class="heading">Roulette</h1>
+
+<div class="playButtons">
+	<button id="newBid" onclick="bid()">Bid amount!</button>					<!-- Button "Bid amount!" ruft Methode bid() auf -->
+	<button id="removeBid" onclick="resetBid()">New bid!</button>				<!-- Button "New bid!" ruft Methode resetBid() -->
+	<button id="startWheel" onclick="startWheel()">Start wheel!</button>		<!-- Button "Start wheel!" ruft Methode startWheel() auf -->
+</div>
+
+<div class="amountButtons">													<!-- drei Bietbetragbuttons (10; 25; 50) -->
+	<button class="amount" onclick="setBid(10)" id="amount1">10</button>
+	<button class="amount" onclick="setBid(25)" id="amount2">25</button>
+	<button class="amount" onclick="setBid(50)" id="amount3">50</button>
+</div>
+
+<div class="bidButtons">														<!-- drei Farbbuttons (red, green, black) -->
+	<button class="bid bidRed" onclick="setColor(1)">red</button>
+	<button class="bid bidGreen" onclick="setColor(2)">green</button>
+	<button class="bid bidBlack" onclick="setColor(3)">black</button>
+</div>
+
+<div class="coinValue" id="coinValue"></div>								<!-- Münzen -->
+<div class="number" id="number">Number:</div>								<!-- zufällige Zahl -->
+<div class="bidAmount" id="bidAmount">Bid:</div>							<!-- ausgewählte Bid -->
+<div class="color" id="color">Color:</div>									<!-- ausgewählte Farbe -->
+<div class="winAmount" id="winAmount">Result:</div>							<!-- Resultat, Ausgabe des Gewinn/Verlustes -->	
+
+</body>
+
+<script type="text/javascript" src="roulette.js"></script>					<!-- Javascript laden -->
+
+</html>
